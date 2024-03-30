@@ -28,13 +28,14 @@ export const ListItem = ({
   return isEditing ? (
     <div className="todo-item">
       <input
+      className="edit-input"
         type="text"
         value={newTitle}
         onChange={(e) => setNewTitle(e.target.value)}
       />
 
       <div>
-        <button onClick={() => handleSave(id)}>Save</button>
+        <button className="save-button" onClick={() => handleSave(id)}>Save</button>
       </div>
     </div>
   ) : (

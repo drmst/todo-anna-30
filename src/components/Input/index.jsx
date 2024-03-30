@@ -22,7 +22,7 @@ export const Input = () => {
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
-      <button onClick={handleClick}>Add</button>
+      <button className="input-button" onClick={handleClick}>Add</button>
     </div>
   );
 };

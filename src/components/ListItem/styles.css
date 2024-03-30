@@ -42,3 +42,20 @@ button {
 .edit-button:hover{
   background-color: rgb(148, 171, 246);
 }
+
+.save-button {
+  background-color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: rgb(194, 194, 194);
+}
+.edit-input{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  padding: 5px 10px;
+border-radius: 3px;
+  border: 2px solid #ddd;
+}
