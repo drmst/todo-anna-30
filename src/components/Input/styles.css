@@ -1,4 +1,18 @@
 .input-container{
     display: flex;
     margin: 0 auto;
+    justify-content: space-between;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+}
+
+button{
+    background-color:rgb(215, 215, 215) ;
+}
+button:hover{
+    background-color:rgb(194, 194, 194) ;
 }

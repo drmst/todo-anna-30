@@ -46,8 +46,8 @@ export const ListItem = ({
         {title}
       </li>
       <div>
-        <button onClick={() => handleDelete(id)}>X</button>
-        <button onClick={handleEdit}>Edit</button>
+        <button className="delete-button" onClick={() => handleDelete(id)}>X</button>
+        <button className="edit-button" onClick={handleEdit}>Edit</button>
       </div>
     </div>
   );

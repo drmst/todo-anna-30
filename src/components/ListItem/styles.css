@@ -1,27 +1,44 @@
-.todo-item{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-  }
-  
-  li:last-child {
-    border-bottom: none;
-  }
-  
-  .completed {
-    text-decoration: line-through;
-    opacity: 0.5;
-  }
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
 
-  button{
-    margin-left: 10px;
-  }
+li:last-child {
+  border-bottom: none;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+button {
+  margin-left: 10px;
+  border: none ;
+  border-radius: 3px;
+}
+
+.delete-button{
+  background-color: rgb(253, 158, 158);
+}
+.delete-button:hover{
+  background-color: rgb(247, 109, 109);
+}
+
+.edit-button{
+  background-color: rgb(189, 204, 255);
+}
+
+.edit-button:hover{
+  background-color: rgb(148, 171, 246);
+}

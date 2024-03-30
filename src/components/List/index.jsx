@@ -1,6 +1,6 @@
 import "./styles.css";
 import { ListItem } from "../ListItem";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { DataContext } from "../../App";
 
 export const List = () => {
