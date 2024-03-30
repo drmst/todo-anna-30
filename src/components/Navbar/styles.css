@@ -1,0 +1,10 @@
+.navigation-list{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color: #fff;
+}
+.navigation--right{
+    display: flex;
+}
